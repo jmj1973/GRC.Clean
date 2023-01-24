@@ -1,7 +1,7 @@
 # GRC.Clean
- Use Visual Studio 2022 and .Net 6.0
+ Use Visual Studio Code and .Net 6.0
 
-## Visual Studio 2022
+## Visual Studio Code
  Microsoft Visual Studio Code (64-bit) - Current
  Version 1.74.3
 
