@@ -68,21 +68,35 @@
        Class Library .NET 6.0
        ```
        dotnet new classlib -f net6.0 -n GRC.Clean.Application -o src/Core/GRC.Clean.Application
+       dotnet sln add src/Core/GRC.Clean.Application/GRC.Clean.Application.csproj
+       dotnet add src/Core/GRC.Clean.Application package Microsoft.Extensions.DependencyInjection
+       dotnet add src/Core/GRC.Clean.Application package Microsoft.Extensions.Configuration
        ```
     - GRC.Clean.Domain (Core)
        Class Library .NET 6.0
        ```
        dotnet new classlib -f net6.0 -n GRC.Clean.Domain -o src/Core/GRC.Clean.Domain
+       dotnet sln add src/Core/GRC.Clean.Domain/GRC.Clean.Domain.csproj
+       dotnet add src/Core/GRC.Clean.Domain package Microsoft.Extensions.DependencyInjection
+       dotnet add src/Core/GRC.Clean.Domain package Microsoft.Extensions.Configuration
        ```       
     - GRC.CleanInfrastructure (Infrastructure)
        Class Library .NET 6.0
        ```
        dotnet new classlib -f net6.0 -n GRC.Clean.Infrastructure -o src/Infrastructure/GRC.Clean.Infrastructure
+       dotnet sln add src/Infrastructure/GRC.Clean.Infrastructure/GRC.Clean.Infrastructure.csproj
+       dotnet add src/Infrastructure/GRC.Clean.Infrastructure package Microsoft.Extensions.DependencyInjection
+       dotnet add src/Infrastructure/GRC.Clean.Infrastructure package Microsoft.Extensions.Configuration
+
        ```              
     - GRC.Clean.Presistence (Infrastructure)
        Class Library .NET 6.0
        ```
        dotnet new classlib -f net6.0 -n GRC.Clean.Presistence -o src/Infrastructure/GRC.Clean.Presistence
+       dotnet sln add src/Infrastructure/GRC.Clean.Presistence/GRC.Clean.Presistence.csproj
+       dotnet add src/Infrastructure/GRC.Clean.Presistence package Microsoft.Extensions.DependencyInjection
+       dotnet add src/Infrastructure/GRC.Clean.Presistence package Microsoft.Extensions.Configuration
+
        ```      
 
 
