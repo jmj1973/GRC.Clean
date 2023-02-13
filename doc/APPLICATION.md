@@ -28,7 +28,17 @@ DependencyInjection
    ```
    dotnet add src/Core/GRC.Clean.Application reference src/Core/GRC.Clean.Domain/GRC.Clean.Domain.csproj
    ```
+   
+4.3. Create the BaseDto
+    
+    - DTOs\Common\BaseDto.cs
 
+    ```
+        public abstract class BaseDto<TType>
+        {
+            public TType Id { get; set; }
+        }
+    ```
 
 
 
