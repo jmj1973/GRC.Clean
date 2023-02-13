@@ -9,6 +9,7 @@ dotnet add src/Core/GRC.Clean.Application package AutoMapper.Extensions.
 Microsoft.DependencyInjection
 dotnet add src/Core/GRC.Clean.Application package MediatR.Extensions.Microsoft.
 DependencyInjection
+dotnet add src/Core/GRC.Clean.Application package FluentValidation
 ```      
    
    - DTOs\Common\BaseDto.cs
