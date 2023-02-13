@@ -17,14 +17,14 @@
  ## Clean Architeture
 
 ``` 
-  UI - API - Application - Domain - Presisence - DB
-             |                   |  |             |
-             +-------------------+  +-------------+
-                     Core            Infrastructure
+  MVC - API - Application - Domain - Presisence - DB
+  |       |   |                   |  |             |
+  +-------+   +-------------------+  +-------------+
+     Web              Core            Infrastructure
 ```
-  UI:
+  MVC: (Web)
 
-  API:
+  API: (Web)
 
   Application: (Core)
   - DTOs
