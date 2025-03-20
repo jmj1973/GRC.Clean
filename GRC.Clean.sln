@@ -17,13 +17,18 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GRC.Clean.Infrastructure", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GRC.Clean.Presistence", "src\Infrastructure\GRC.Clean.Presistence\GRC.Clean.Presistence.csproj", "{C3C5D916-9ABA-4D40-81E3-BFB19F80375D}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		doc\APPLICATION.md = doc\APPLICATION.md
+		doc\DOMAIN.md = doc\DOMAIN.md
+		global.json = global.json
+		LICENSE = LICENSE
+		README.md = README.md
+		doc\RELEASE.md = doc\RELEASE.md
+	EndProjectSection
+EndProject
 Global
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {ED18A14F-F225-4B59-9818-339A5EB95985}
-	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Debug|x64 = Debug|x64
@@ -82,6 +87,9 @@ Global
 		{C3C5D916-9ABA-4D40-81E3-BFB19F80375D}.Release|x86.ActiveCfg = Release|Any CPU
 		{C3C5D916-9ABA-4D40-81E3-BFB19F80375D}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{7E95EC7C-374F-4736-AFA6-CEA7B2DFED18} = {CC9F7DF5-AB8C-46B7-8283-E369496AABDF}
 		{40E721A9-5C73-4CC6-B77B-6FE8BB75797B} = {7E95EC7C-374F-4736-AFA6-CEA7B2DFED18}
@@ -89,5 +97,8 @@ Global
 		{CA73FF5C-B8AE-4649-AC34-34006384DE11} = {CC9F7DF5-AB8C-46B7-8283-E369496AABDF}
 		{D43A5C62-24CC-4B29-8014-55C31769519F} = {CA73FF5C-B8AE-4649-AC34-34006384DE11}
 		{C3C5D916-9ABA-4D40-81E3-BFB19F80375D} = {CA73FF5C-B8AE-4649-AC34-34006384DE11}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {ED18A14F-F225-4B59-9818-339A5EB95985}
 	EndGlobalSection
 EndGlobal
