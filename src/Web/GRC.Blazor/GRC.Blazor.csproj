@@ -17,4 +17,10 @@
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.0-rc.2.23480.1" />
   </ItemGroup>
 
+  
+  
+  <ItemGroup>
+    <ProjectReference Include="..\GRC.Clean.ServiceDefaults\GRC.Clean.ServiceDefaults.csproj" />
+  </ItemGroup>
+
 </Project>
