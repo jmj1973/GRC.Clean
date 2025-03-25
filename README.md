@@ -5,7 +5,7 @@
  Microsoft Visual Studio Code (64-bit) - Current
  Version 1.74.3
 
-## .Net 6.0
+## .Net 9.0
  Microsoft .NET SDK 9.0.201
 
 ## Running the code
@@ -17,6 +17,7 @@
  ## Clean Architeture
 
 ``` 
+              (Use Cases)
   MVC - API - Application - Domain - Presisence - DB
   |       |   |                   |  |             |
   +-------+   +-------------------+  +-------------+
@@ -26,7 +27,7 @@
 
   API: (Web)
 
-  Application: (Core)
+  Application: (Use Cases / Core)
   - DTOs
   - Command
   - Queries
